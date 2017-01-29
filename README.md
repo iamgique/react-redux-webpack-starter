@@ -11,7 +11,6 @@ Style: boostrap
 
 ### How to use
 npm install
-npm install babel-core -save--dev
 
 ### How to run
 npm run dev
