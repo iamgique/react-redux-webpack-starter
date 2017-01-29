@@ -18,3 +18,6 @@ How to run
 
 How to build
 ### npm run deploy
+
+Relate project from
+https://github.com/ReactTraining/react-router
