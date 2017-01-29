@@ -19,5 +19,15 @@ npm run dev
 ### How to build
 npm run deploy
 
+### Create file for use
+
+    $ touch .babelrc
+
+```js
+{
+  "presets": ["es2015", "react"]
+}
+```
+
 ### Relate project from
 https://github.com/ReactTraining/react-router
