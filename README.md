@@ -1,4 +1,4 @@
-# react-redux-webpack-stater
+# react-redux-webpack-starter
 
 This project use
 Core project: ES6, React, Redux, Webpack
