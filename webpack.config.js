@@ -41,7 +41,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoErrorsPlugin()
     ],
-    derServer: {
+    devServer: {
       hot: true,
       contentBase: './',
     }

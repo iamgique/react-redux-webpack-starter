@@ -1,6 +1,7 @@
 const todo = (state = {}, action) => {
   switch (action.type) {
     case 'ADD_TODO':
+    console.log("Reducer todo");
       return {
         id: action.id,
         text: action.text,
@@ -23,6 +24,7 @@ const todo = (state = {}, action) => {
 const todos = (state = [], action) => {
   switch (action.type) {
     case 'ADD_TODO':
+    console.log("Reducer todos");
       return [
         ...state,
         todo(undefined, action)
